@@ -1,0 +1,85 @@
+@font-face{
+    font-family: RobotoSlab-Bold;
+    font-family: RobotoSlab-Regular;
+    src: url("../font/RobotoSlab-Bold.ttf")
+     url("../font/RobotoSlab-Regular.ttf");
+}
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.divimg{
+    
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+/*.divimg{
+    padding: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/me.jpg");
+    background-size: cover;
+
+}*/
+.headings{
+    font-family: RobotoSlab-Regular;
+    text-shadow: 2px 2px #B0B0B0;
+    text-align: center;
+}
+.headings h2{
+    color: gray;
+}
+ul {
+    padding-left: 0%;
+}
+ul li{
+    list-style-type: none;
+    background: grey;
+    border-bottom: 3px solid honeydew;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul li a{
+    color: ghostwhite;
+}
+h1{
+font-family: RobotoSlab-Bold;
+}
+.resume{
+    border-bottom: 3px solid gray;
+    padding: 3%;
+}
+.skills{
+    border-bottom: 3px solid gray;
+    padding: 3%;
+}
+.progress-bar{
+    width: 506px;
+    height: 16px;
+    background-color: lightblue;
+    border: 2px solid gray;
+    border-radius: 13px;
+    
+}
+.progress{
+    width: 350px;
+    height: 15px;
+    background-color: #eee7ea;
+    border-radius: 13px;
+}
+.projects{
+    border-bottom: 3px solid gray;
+    padding: 3%;
+}
+.contact{
+    border-bottom: 3px solid gray;
+    padding: 3%;
+}
+
